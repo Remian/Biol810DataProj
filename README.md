@@ -20,6 +20,8 @@ Each script is numbered following the sequence for the analysis presented in the
 6_loocv_function.R and 6_loocv_function_call_table_7.R | These scripts are for leave one out cross validation (k=n-1) tests. The function script has the core functions used for computing the matrices and running the cv test. The caller script generates the Table 7 from the project (final results), using the function script.
 
   
+**for installing the required packages plaease run 0_package_installer_script.R
+  
 **5 fold results may produce slight variation due to randomness in fold creation. That's why leave one out cv is performed, leave one out cv should be consistant. 
 
   
